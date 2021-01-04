@@ -1,0 +1,53 @@
+
+/***********************/
+/* Basic General Style */
+/***********************/
+:root {
+	--blue: rgba(0, 128, 253, 1);
+	--darkBlue: rgba(0, 64, 121, 1);
+	--white: rgba(255, 255, 255, 1);
+	--black: rgba(0, 0, 0, 1);
+	--darkGray: rgba(31, 31, 31, 1);
+	--005_black: rgba(255, 255, 255, 0.05);
+	--010_black: rgba(255, 255, 255, 0.1);
+	--015_black: rgba(255, 255, 255, 0.15);
+	--gray: rgba(26, 26, 26, 1);
+	
+	
+}
+/******************/
+/* To Top Wrapper */
+/******************/
+.toTopWrapper {
+	display: block;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    transform: translate(0,-15px);
+    z-index: 100000;
+    text-align: center;
+}
+.toTopWrapper .toTop i {
+	font-size: 46px;
+	position: relative;
+	top: 50%;
+	transform: translate(-50%);
+    min-width: 50px;
+    min-height: 50px;
+    background-color: var(--blue);
+	cursor: pointer;
+	transition: all 0.3s;
+}
+.toTopWrapper .toTop i:hover {
+    background-color: var(--darkBlue);
+}
+
+
+table, table tr, table tr td {
+	border: 1px dashed #1c1c1c;
+}
+table {
+	width: 100%;
+	text-align: center;
+}
+
