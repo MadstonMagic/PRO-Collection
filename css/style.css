@@ -72,3 +72,53 @@ table {
 	padding: 50px 0;
 }
 
+
+/*************************/
+/******* Tooltips ********/
+/*************************/
+span.tooltip {
+	transition: visibility 0.1s;
+	visibility: hidden;
+    text-align: left;
+    margin-left: -150px;
+    position: absolute;
+    width: 200px;
+	background-color: rgba(0, 19, 38, 0.9);
+	padding: 25px;
+	border: 2px solid var(--blue);
+	border-radius: 25px;
+  z-index: 1;
+}
+span.tooltip .tooltip_title {
+    color: #fff;
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+span.tooltip ul, span.tooltip ul li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+span.tooltip ul table,
+span.tooltip ul table tr,
+span.tooltip ul table tr td {
+    padding: 5px 15px 0px 0;
+    margin: 0;
+}
+span.tooltip ul table tr td {
+    width: 50px;
+    text-align: left;
+}
+
+span.tooltip ul table tr td.stat, span.tooltip ul table tr td.total {color: #fff;}
+span.tooltip ul table tr td.iv {color: #ffb623;}
+span.tooltip ul table tr td.ev {color: #0ef;}
+span.tooltip ul li.min table tr td.stat {color: red;}
+span.tooltip ul li.plus table tr td.stat {color: #00ff02;}
+
+
+.toopltip_hover:hover .tooltip {
+  visibility: visible;
+}
