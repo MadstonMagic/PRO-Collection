@@ -24,7 +24,7 @@ body, html {
 
 .sprites table tr td {
 	padding: 25px;
-	width: calc(100%/3);
+	width: calc(100%/7);
 }
 table {
 	width: 100%;
