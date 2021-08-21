@@ -121,6 +121,7 @@ span.tooltip ul table tr td {
 span.tooltip .tooltip_sale.no {font-weight:bold; color: red;}
 span.tooltip .tooltip_sale.yes {font-weight:bold; color: green;}
 span.tooltip .tooltip_sale.offer {font-weight:bold; color: purple;}
+span.tooltip .tooltip_sale.sold {font-weight:bold;color: rgb(255 247 0);font-size: 2em;}
 .spritesLegendary span.tooltip .tooltip_title {
 	display: inline-block;
 	color: white;
@@ -232,6 +233,6 @@ span.tooltip ul li.plus table tr td.stat {color: #00ff02;}
 	color: #000;
 }
 .footer table .closed {color: red; font-weight: bold;}
-.footer table .open {color: green; font-weight: bold;}
+.footer table .open {color: #00ff00; font-weight: bold;}
 
 
